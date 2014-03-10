@@ -1,0 +1,21 @@
+{
+  "map" : [
+    {
+      "inUrl" : "/test0",
+      "outUrl": [
+        { "hostname": "localhost", "port": 8081, "path": "/test1" },
+        { "hostname": "localhost", "port": 8081, "path": "/test2" }
+     ]
+    },
+    {
+      "inUrl" : "/test1",
+      "outUrl": [ ]
+    },
+    { 
+      "inUrl" : "/test2",
+      "outUrl": [ ]
+    }
+  ],
+  "port" : 8081
+}
+
